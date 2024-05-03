@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 USERID=$(id -u)
 
 VALIDATE(){
@@ -21,3 +22,4 @@ VALIDATE $? "Installing MySQL"
 
 dnf install git -y
 VALIDATE $? "Installing MySQL"
+
